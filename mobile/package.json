@@ -1,0 +1,31 @@
+{  
+  "name": "jinails-mobile",  
+  "version": "0.1.0",  
+  "private": true,  
+  "dependencies": {  
+    "react": "17.0.1",  
+    "react-native": "0.65.1",  
+    "@react-native-firebase/app": "^12.0.0",  
+    "@react-native-firebase/auth": "^12.0.0",  
+    "@react-native-firebase/firestore": "^12.0.0",  
+    "react-native-maps": "^0.29.4",  
+    "i18next": "^21.3.0",  
+    "react-i18next": "^11.11.0"  
+  },  
+  "scripts": {  
+    "start": "react-native start",  
+    "android": "react-native run-android",  
+    "ios": "react-native run-ios",  
+    "test": "jest"  
+  },  
+  "jest": {  
+    "preset": "react-native",  
+    "moduleFileExtensions": [  
+      "js",  
+      "json",  
+      "ts",  
+      "tsx",  
+      "jsx"  
+    ]  
+  }  
+}
